@@ -211,7 +211,6 @@ namespace GraphProcessor
 				titleTextField.focusable = true;
 
 				titleTextField.SetValueWithoutNotify(title);
-				titleTextField.SelectAll();
 				
 				titleTextField.schedule.Execute(() =>
 				{
